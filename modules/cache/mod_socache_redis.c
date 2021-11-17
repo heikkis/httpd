@@ -39,7 +39,7 @@ typedef struct {
 #endif
 
 /* The underlying apr_redis system is thread safe.. */
-#define RD_KEY_LEN 254
+#define RD_KEY_LEN 508
 
 #ifndef RD_DEFAULT_SERVER_PORT
 #define RD_DEFAULT_SERVER_PORT 6379
